@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## create a list of function to call cache for cacheSolve
+## create a list of function and store x and inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 	i <- NULL
@@ -17,8 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Solve inverse of a matrix with checking if inverse already exist in cache
-## need to be used with makeCacheMatrix
+## Solve inverse of a matrix with checking if inverse already exist in above
+## need to be used with object made by makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
 	## Return a matrix that is the inverse of 'x'
